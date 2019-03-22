@@ -15,6 +15,7 @@ router.get('/', (req, res) => {
     name: 'wes',
     dog: 'snickers',
     // dog: req.query.dog
+    title: 'I love dogs'
   });
 });
 
