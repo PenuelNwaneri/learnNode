@@ -18,6 +18,7 @@ mongoose.connection.on('error', (err) => {
 });
 
 // READY?! Let's go!
+require('./models/Store.js');
 
 
 // Start our app!
